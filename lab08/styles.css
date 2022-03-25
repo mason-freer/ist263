@@ -1,0 +1,49 @@
+body {background-color: #D3D3D3;
+    color: #10172A;
+}
+h1 {background-color: #D3D3D3;}
+nav a {color: #494d48;}
+a:link {color: #257a12}
+nav a:hover {background-color: #bee6b5;}
+nav {padding:10px;
+    margin-bottom:30px;
+    background-color: #61b033;}
+span {float:right;}
+img {float:left;
+    margin-right: 10px;}
+.clearfloat {clear:both;}
+.h1 {margin-left: 10px;}
+.row1, .row2 {display: flex;}
+.address {flex: 1;
+        margin-left: 20px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        background-color: #cce5ff;
+        border-top-left-radius: 1em;
+        border-bottom-left-radius: 1em;}
+.media {flex: 4;
+        margin-right: 20px;
+        padding-right: 10px;
+        padding-top:25px;
+        padding-bottom: 10px;
+        background-color: #cce5ff;
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 1em;}
+.form {flex: 1;
+        margin-top: 50px;
+        margin-left: 20px;
+        padding: 25px;
+        background-color: #cce5ff;
+        border-top-left-radius: 1em;
+        border-bottom-left-radius: 1em;}
+.map {flex: 2;
+        margin-top: 50px;
+        margin-right: 20px;
+        padding: 25px;
+        background-color: #cce5ff;
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 1em;}
+/* .row1 div {flex: 1; padding: 15px;}
+.row2 div {flex: 1; padding: 15px;}
+.row1cols {flex: 1; padding: 10px;}
+.row2cols {flex: 1; padding: 10px;} */
