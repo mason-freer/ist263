@@ -8,9 +8,9 @@ nav a:hover {background-color: #bee6b5;}
 nav {padding:10px;
     margin-bottom:30px;
     background-color: #61b033;}
-span {float:right;}
 img {float:left;
-    margin-right: 10px;}
+    margin-right: 10px;
+}
 .clearfloat {clear:both;}
 .h1 {margin-left: 10px;}
 .row1, .row2 {display: flex;}
@@ -63,8 +63,9 @@ img {float:left;
 .textflex {display: flex;}
 .side1 {flex: 2;}
 .side2 {flex: 1;}
-/* .otherskill {flex: 1;} 
-/* .row1 div {flex: 1; padding: 15px;}
-.row2 div {flex: 1; padding: 15px;}
-.row1cols {flex: 1; padding: 10px;}
-.row2cols {flex: 1; padding: 10px;} */
+@media only screen and (max-width: 600px) {
+        nav a {width: 100%;
+                display: block;
+                padding-bottom: 10px;} /* this style only when viewpoint 600px or less */
+        nav span {display: none;} /* takes away element when size is below 600px */
+    }
