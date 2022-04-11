@@ -1,0 +1,66 @@
+body {background-color: #D3D3D3;
+    color: #10172A;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+.textflex {
+    display: flex;
+}
+.textcol1 {
+    flex: 4;
+}
+.textcol2 {
+    flex: 1;
+}
+.wwhdsplits {
+    margin-left: 30px;
+    height: 500px;
+}
+.foot-windwaker-icon {
+    width:30px;
+    height:auto;
+}
+nav a {
+    margin: 10px;
+}
+nav {
+    display: flex;
+    background-color: #1c699c98;
+    color: #ffffff;
+    justify-content: space-evenly;
+    border-radius: 1em;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.img1, .img2, .img3, .img4 {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+}
+.imgfooter {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.banner {text-align: center;}
+footer {
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2em;
+    background-color: #1c699c98;
+    font-size: large;
+    display: flex;
+}
+.footercol1 {
+    flex: 3;
+}
+.footercol1 a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footercol2 {
+    flex: 1;
+}
