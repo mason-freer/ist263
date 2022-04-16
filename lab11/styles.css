@@ -1,0 +1,83 @@
+body {background-color: #D3D3D3;
+    color: #10172A;
+}
+h1 {background-color: #D3D3D3;}
+nav a {color: #000000;}
+a:link {color: #000000}
+nav a:hover {background-color: #bee6b5;}
+nav {padding:10px;
+    margin-bottom:30px;
+    background-color: #61b033;}
+img {float:left;
+    margin-right: 10px;
+}
+.clearfloat {clear:both;}
+.h1 {margin-left: 10px;}
+.row1, .row2 {display: flex;}
+.address {flex: 1;
+        margin-left: 20px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        background-color: #93dbd5;
+        border-top-left-radius: 1em;
+        border-bottom-left-radius: 1em;}
+.media {flex: 4;
+        margin-right: 20px;
+        padding-right: 10px;
+        padding-top:25px;
+        padding-bottom: 10px;
+        background-color: #93dbd5;
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 1em;}
+.media img, a {
+        color: #000000;
+}
+.form {flex: 1;
+        margin-top: 50px;
+        margin-left: 20px;
+        padding: 25px;
+        background-color: #93dbd5;
+        border-top-left-radius: 1em;
+        border-bottom-left-radius: 1em;}
+.map {flex: 2;
+        margin-top: 50px;
+        margin-right: 20px;
+        padding: 25px;
+        background-color: #93dbd5;
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 1em;}
+.h1skills {text-align: center;}
+.skillsdesc {text-align: left;
+                margin-right: 50px;
+                margin-left: 50px;}
+.skillimg {width: 75px;}
+.skillrow {display: flex;
+        flex: 3;
+        justify-content: space-evenly;
+        padding-top: 50px;}
+.aside {background-color: #93dbd5;
+        border-radius: 1em;
+        padding-left: 10px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        flex: 0.65;
+        margin-right: 50px;}
+.skillsflex {display: flex;}
+.textflex {display: flex;}
+.side1 {flex: 2;}
+.side2 {flex: 1;}
+#skip {
+        position: absolute;
+        left: -999px;
+    }
+    #skip:focus {
+        left: 10px;
+        background-color: orange;
+        padding: 5px;
+    }
+@media only screen and (max-width: 600px) {
+        nav a {width: 100%;
+                display: block;
+                padding-bottom: 10px;} /* this style only when viewpoint 600px or less */
+        nav span {display: none;} /* takes away element when size is below 600px */
+    }
