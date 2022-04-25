@@ -1,0 +1,8 @@
+ROP Helper
+
+48 89 c7 c3 --> movq %rax, %rdi
+
+probable gadget 2: 4018ec from <setval_289>
+add 3 byte buffer; 4018ec + 3 = 4018ef
+
+probable gadget 1: 

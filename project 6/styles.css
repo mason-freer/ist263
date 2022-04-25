@@ -1,0 +1,123 @@
+body {/*background-color: #D3D3D3;*/
+    background-color: #ffffff;
+    color: #10172A;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.headingtext {
+    text-align: center;
+}
+.textflex {
+    display: flex;
+}
+.textcol1 {
+    flex: 4;
+}
+.textcol2 {
+    flex: 1;
+}
+.wwhdsplits {
+    margin-left: 30px;
+    height: 500px;
+}
+.wwhd_oob {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.foot-windwaker-icon {
+    width:30px;
+    height:auto;
+}
+a:link {
+    text-decoration: none;
+    color: #000000;
+}
+a:visited {
+    color: #000000;
+}
+a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+nav a {
+    margin: 10px;
+}
+nav {
+    display: flex;
+    background-color: #1c699c98;
+    color: #ffffff;
+    justify-content: space-evenly;
+    border-radius: 1em;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.img1, .img2, .img3, .img4 {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    max-width: 100%;
+}
+.imgfooter {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.banner {text-align: center;}
+footer {
+    margin-left: 280px;
+    margin-right: 280px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2em;
+    background-color: #1c699c98;
+    font-size: large;
+    display: flex;
+}
+.footercol1 {
+    flex: 3;
+}
+.footercol1 a {
+    display:block;
+    padding-top: 10px;
+}
+.footercol2 {
+    flex: 1;
+}
+#skip {
+    position: absolute;
+    left: -999px;
+}
+#skip:focus {
+    left: 10px;
+    background-color: orange;
+    padding: 5px;
+}
+@media screen and (max-width: 650px) {
+    nav {
+        display:block;
+        padding-top: 5px;
+        padding-right: 10px;
+    }
+    nav a {width: 100%;
+            display: block;
+            padding-bottom: 10px;} /* this style only when viewpoint 600px or less */
+    nav span {display: none;} /* takes away element when size is below 600px */
+}
+@media only screen and (max-width: 1200px) {
+    footer a {
+        width: 100%;
+        display:block;
+        padding-bottom: 10px;
+    }
+    footer {
+        margin: 0px;
+    }
+    .imgfooter {
+        display: none;
+    }
+}
