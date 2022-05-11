@@ -100,9 +100,7 @@ nav {
 }
 .diffvid {flex: 2;}
 .difftext {flex: 2;}
-.diffrow {display: flex;}
-.diffcol {flex: 1;}
-.diffcol2 {flex: 1;}
+.diffimages {display: flex;}
 .leaderboard {
     width: 100%;
     max-width: 520px;
@@ -192,10 +190,10 @@ footer {
         display: flex;
         align-items: center;
     }
-    .gdqimages {
+    .gdqimages, .diffimages {
         display: block;
     } /* removes flex from .gdqimages */
-    .gymgdq { /* removes original left padding, adds space between .gdqimages */
+    .gymgdq, .alberto { /* removes original left padding, adds space between .gdqimages */
         padding-left: 0px; 
         padding-top: 20px;
     }
@@ -204,9 +202,14 @@ footer {
         width: 100%;
         margin: auto;
     }
+    .alberto, .leaderboard {
+        max-width: 520px;
+        width: 100%;
+        margin: auto;
+    }
     .diffheader {display: block;}
     .twitchvid {padding: none;}
-    .diffvid {
+    .diffvid, .diffimages {
         padding: none;
         text-align: center;
     }
@@ -238,8 +241,4 @@ footer {
         padding-right: 0px;
     }
     .twitchvid {padding-left: 0px;}
-    .leaderboard {width: 510px;}
-}
-@media screen and (max-width: 650px) {
-    .leaderboard {display: none;}
 }
