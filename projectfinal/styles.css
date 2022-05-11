@@ -22,6 +22,7 @@ h1 {
     margin-bottom: 20px;
     margin-top: 5px;
 }
+.imagedesc2 {margin-left: 20px;}
 .alberto {
     display: block;
     margin-left: auto;
@@ -101,10 +102,9 @@ nav {
 }
 .diffvid {flex: 2;}
 .difftext {flex: 2;}
-.diffrow {
-    display: flex;
-}
-.diffrow div {flex: 1;}
+.diffrow {display: flex;}
+.diffcol {flex: 1;}
+.diffcol2 {flex: 1;}
 .leaderboard {
     width: 100%;
     max-width: 520px;
