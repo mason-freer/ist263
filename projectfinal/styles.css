@@ -16,7 +16,7 @@ h1 {
     flex: 1;
     padding: 5px;
 }
-.imagedesc1, .imagedesc2 {
+.imagedesc1, .imagedesc2, .imagedesc3 {
     font-size: smaller;
     text-align: center;
     margin-bottom: 20px;
@@ -101,12 +101,16 @@ nav {
 }
 .diffvid {flex: 2;}
 .difftext {flex: 2;}
+.diffrow {
+    display: flex;
+}
 .leaderboard {
     width: 100%;
-    max-width: 600px;
+    max-width: 520px;
+    margin-right: 20px;
 }
 .alberto {
-    max-width: 700px;
+    max-width: 500px;
     width: 100%;
 }
 .twitchvid {
