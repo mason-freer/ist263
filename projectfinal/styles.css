@@ -232,7 +232,9 @@ footer {
     }
     nav a {width: 100%;
             display: block;
-            padding-bottom: 10px;} /* this style only when viewpoint 600px or less */
+            padding-bottom: 10px;
+            padding-right: 10px;
+        } /* this style only when viewpoint 600px or less */
     nav span {display: none;} /* takes away element when size is below 600px */
     .textflex {display: block;}
     .row {display: block;}
