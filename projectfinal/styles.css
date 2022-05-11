@@ -2,8 +2,8 @@ body {/*background-color: #D3D3D3;*/
     background-color: #ffffff;
     color: #10172A;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 h1 {
     font-family: 'Radio Canada', sans-serif;
@@ -93,6 +93,7 @@ nav {
 .gdqheader {
     display: flex;
     margin-right: 30px;
+    align-items: center;
 }
 .diffheader {
     display: flex;
@@ -119,10 +120,12 @@ nav {
 .agdq2013 {
     width: 500px;
     padding-right: 15px;
+    flex: 1;
 }
 .gymgdq {
     width: 600px;
     padding-left: 15px;
+    flex: 2;
 }
 .gdqcol {display: none;}
 footer {
