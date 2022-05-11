@@ -128,6 +128,7 @@ nav {
     max-width: 500px;
     width: 100%;
     flex: 1;
+    margin-left: auto;
 }
 .gdqcol {display: none;}
 footer {
@@ -242,4 +243,5 @@ footer {
         padding-right: 0px;
     }
     .twitchvid {padding-left: 0px;}
+    .leaderboard, .alberto {min-width: 500px;}
 }
