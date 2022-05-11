@@ -104,6 +104,8 @@ nav {
 .diffrow {
     display: flex;
 }
+.diffcol {flex: 1;}
+.diffcol2 {flex: 1;}
 .leaderboard {
     width: 100%;
     max-width: 520px;
