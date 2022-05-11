@@ -92,11 +92,9 @@ nav {
 .gdqheader {
     display: flex;
     margin-right: 30px;
-    align-items: center;
 }
 .diffheader {
     display: flex;
-    align-items: center;
 }
 .diffvid {flex: 2;}
 .difftext {flex: 2;}
