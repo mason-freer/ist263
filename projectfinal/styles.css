@@ -212,11 +212,12 @@ footer {
     }
     .alberto {margin-right: auto;}
     .diffheader {display: block;}
-    .twitchvid {padding: none;}
-    .diffvid, .diffimages {
-        padding: none;
+    .twitchvid {padding-left: 0px;}
+    .diffimages {
+        padding: 0;
         text-align: center;
     }
+    .leaderboard {margin-right: 0px;}
 }
 @media screen and (max-width: 730px) {
     nav {
